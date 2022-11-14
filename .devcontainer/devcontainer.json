@@ -1,8 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "mounts": [
-    "source=/,target=/tmp/mnt,type=bind"
-  ],
+  "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
   "features": {
   }
 }
+s
