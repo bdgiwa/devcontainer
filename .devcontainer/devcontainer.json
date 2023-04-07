@@ -1,6 +1,7 @@
 {
   "name": "compose",
-	"dockerComposeFile": "docker-compose.yml",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
   "features": {
   },
   "remoteUser": "root"
