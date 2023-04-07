@@ -1,8 +1,7 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "mounts": [ "source=/,target=/host,type=bind" ],
+  "name": "compose",
+	"dockerComposeFile": "docker-compose.yml",
   "features": {
   },
-  "remoteUser": "root",
-   "forwardPorts": [22],
+  "remoteUser": "root"
 }
